@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+.nav {
+  text-align:left;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 10px;
+}
+li a {
+  color: #69696a;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  text-align: left;
+  display:flex;
+}
+.b {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 25px;
+  width: 100%;
+  padding: 10px;
+}
+body {
+  background-color: #f9fafc;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:normal, 800;
+}
+.b a {
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+}
+.b {
+  display: flex;
+  justify-content: center;
+}
+.c {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.white {color: white;}
+@media screen and (min-width: 768px) {
+
+  p {
+  width: 60%;
+}
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+    ul {
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+    }
+    .main-logo {
+      padding-top: 10px;
+    }
+    li {
+      margin-top: 0;
+      padding-top: 10px;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .ab {
+      text-align: left;
+    }
+    .d a {
+      text-align: right;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .b {
+      margin: 0 auto;
+      margin-top: 400px;
+      width: 15%;
+      text-align: center;
+      border-radius: 25px;
+    }
+    .pink-circle {
+    background-color: rgba(247, 136, 167, 0.6);
+    width: 325px;
+    height: 325px;
+    border-radius: 50%;
+    position:absolute;
+    left: 45px;
+    top: 25px;
+  }
+
+  .purple-circle {
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 125px;
+    height: 125px;
+    border-radius:50%;
+    position: absolute;
+    left: 275px;
+    top: 45px;
+  }
+  .orange-circle {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 175px;
+    height: 175px;
+    border-radius: 45%;
+    position: absolute ;
+    left: 300px;
+    top: 175px;
+  }
+  .circles {
+    width: 50%;
+    position: relative;
+  }
+
+  .white {
+    color: white;
+  }
+
+}
