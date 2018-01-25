@@ -26,14 +26,13 @@ a {
   text-align: left;
   display:flex;
 }
-.b {
+.scroll {
   text-align: center;
   color: white;
   display: flex;
   justify-content: center;
   background-color: black;
   border-radius: 25px;
-  width: 100%;
   padding: 10px;
 }
 body {
@@ -41,16 +40,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight:normal, 800;
 }
-.b a {
-  color: white;
-  background-color: black;
-  border-radius: 25px;
-}
-.b {
-  display: flex;
-  justify-content: center;
-}
-.c {
+.hire {
   background-color: black;
   color: white;
   border-radius: 25px;
@@ -58,13 +48,14 @@ body {
   justify-content: center;
   padding: 10px;
 }
-
-.white {color: white;}
-@media screen and (min-width: 768px) {
-
-  p {
-  width: 60%;
+.hire a {
+  color: white;
 }
+/* MEDIA QUERY STARTS HERE */
+@media screen and (min-width: 768px) {
+    p {
+  width: 60%;
+  }
   .container {
     display: flex;
     justify-content: space-between;
@@ -81,21 +72,17 @@ body {
       margin-top: 0;
       padding-top: 10px;
     }
-
     nav {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
     }
-    .ab {
-      text-align: left;
-    }
-    .d a {
+    .options a {
       text-align: right;
       padding-left: 10px;
       padding-right: 10px;
     }
-    .b {
+    .scroll {
       margin: 0 auto;
       margin-top: 400px;
       width: 15%;
@@ -134,9 +121,4 @@ body {
     width: 50%;
     position: relative;
   }
-
-  .white {
-    color: white;
-  }
-
 }
